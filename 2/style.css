@@ -5,11 +5,35 @@
   }
  
   .centered {
-    position: absolute;
+  
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
  
-
+  h1 {
+    display: inline-block;
+    border: 4px solid black;
+    border-radius: 18px;
+    padding: 7px;
+  }
   
+  div {
+    text-align: center;
+  }
+
+.img{
+  width: 350px;
+  height: 350px;
+}
+
+  .flex {
+    padding: 70px;
+  display: flex;
+  justify-content:space-around ;
+
+  }
+
+  p{
+    
+  }
