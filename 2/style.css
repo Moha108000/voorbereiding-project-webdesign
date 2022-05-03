@@ -18,7 +18,12 @@
     padding: 7px;
   }
   
-  
+  .flex img{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
 
   div {
@@ -206,3 +211,7 @@ font-size: large;
       flex: 2 0px;
     }
   }
+
+
+
+  
