@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jan Portaels</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="index.html" class="w3-bar-item w3-button"><b>jan</b> Portaels</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+    
+      <a href="Atelier.html" class="w3-bar-item w3-button">Ateliers</a>
+      <a href="kunsttheorie.html" class="w3-bar-item w3-button">Kunsttheorie</a>
+      <a href="Schrijfin.html" class="w3-bar-item w3-button">Schrijf in</a>
+      <a href="Goedomweten.html" class="w3-bar-item w3-button">Goed Om Weten</a>
+      <a href="activiteiten.html" class="w3-bar-item w3-button">Activiteiten</a>
+      <a href="contact.html" class="w3-bar-item w3-button">contact</a>
+    </div>
+  </div>
+</div>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.menudesktop {
+  background-color: yellow;
+  padding: 20px;
+}
+
+div.menumobile {
+  background-color: blue;
+  padding: 20px;
+  color: white;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  div.menudesktop {
+    display: none;
+  }
+  div.menumobile {
+display: flex;
+}
+
+}
+</style>
+</head>
+<body>
+
+<h2>Hide elements on different screen sizes</h2>
+
+<div class="menudesktop">menu voor desktop.</div>
+<div class="menumobile">menu voor mobiel.</div>
+
+
+<p>When the browser's width is 600px wide or less, hide the div element. Resize the browser window to see the effect.</p>
+
+</body>
+</html>
