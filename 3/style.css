@@ -318,5 +318,28 @@ body {
 
 
 
+div.menudesktop {
+  background-color: yellow;
+  padding: 20px;
+}
+
+div.menumobile {
+  background-color: blue;
+  padding: 20px;
+  color: white;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  div.menudesktop {
+      display: none;
+  }
+
+  div.menumobile {
+      display: flex;
+  }
+
+}
+
 
 
