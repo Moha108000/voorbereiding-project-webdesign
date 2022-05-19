@@ -43,11 +43,22 @@ h1 {
 
 }
 
+h3 {
+  display: inline-block;
+  border: 4px solid black;
+  border-radius: 18px;
+  padding: 7px;
+  color: #000000;
+
+}
+
+
 .flex img {
   width: 350px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border: lightskyblue;
 }
 
 .text1 p {
@@ -370,3 +381,10 @@ hieronder word enkel uitgevoerd wanneer kleiner dan 800px
 }
 
 @media screen and (max-width: 1300px) {}
+
+
+iframe{
+ width: 100%;
+ height: 450px;
+ border: 0px;
+}
